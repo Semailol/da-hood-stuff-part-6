@@ -1,0 +1,4 @@
+--- Made by Airsoft#0001
+--- SoftVortex on Top #1
+--- discord.gg/softvortex
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/SoftVortex/1.7/main/.lua........."),true))()

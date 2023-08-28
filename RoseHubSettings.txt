@@ -1,0 +1,1 @@
+{"ChangePickerBackground":true,"PickerColorG":59,"RainbowOn":false,"PickerColorB":59,"RainbowSpeed":75,"PickerColorR":59,"BackgroundColorB":59,"BackgroundColorR":59,"BackgroundColorG":59,"Transparency":0.699999999999999955591079014994}

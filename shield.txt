@@ -1,0 +1,19 @@
+local Side = 'Right'
+for j, w in pairs(gameGetService('Players').LocalPlayer.CharacterFindFirstChildWhichIsA('Humanoid')GetChildren()) do
+    if string.find(w.Name, 'Scale') then
+        repeat
+            gameGetService('RunService').RenderSteppedWait();
+        until gameGetService('Players').LocalPlayer.CharacterFindFirstChild(Side..'Hand')FindFirstChild('OriginalSize')
+        gameGetService('Players').LocalPlayer.CharacterFindFirstChild(Side..'Hand')FindFirstChild('OriginalSize')Destroy();
+        wDestroy();
+        gameGetService('Players').LocalPlayer.CharacterFindFirstChild(Side..'Hand')WaitForChild('OriginalSize');
+        gameGetService('Players').LocalPlayer.CharacterFindFirstChild(Side..'Hand')FindFirstChild('OriginalSize')Destroy();
+    end;
+end;
+local Tool = Instance.new('Tool')
+Tool.Name = '[Shield]';
+local Handle = Instance.new('Part');
+Handle.Name = 'Handle';
+Handle.Transparency = 1;
+Handle.Parent = Tool;
+Tool.Parent = gameGetService('Players').LocalPlayerFindFirstChildWhichIsA('Backpack');

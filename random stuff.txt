@@ -1,0 +1,18 @@
+game.Players.LocalPlayer.Character.Humanoid.BodyDepthScale:Destroy()
+        game.Players.LocalPlayer.Character.Humanoid.BodyWidthScale:Destroy()
+
+-
+
+        local Animate = game.Players.LocalPlayer.Character.Animate
+        Animate.idle.Animation1.AnimationId = "rbxassetid://616111295"
+        Animate.idle.Animation2.AnimationId = "rbxassetid://657568135"
+        Animate.run.RunAnim.AnimationId = "rbxassetid://657564596"
+        Animate.walk.WalkAnim.AnimationId = "rbxassetid://657552124"
+        Animate.climb.ClimbAnim.AnimationId = "rbxassetid://658360781"
+        Animate.fall.FallAnim.AnimationId = "rbxassetid://657600338"
+        Animate.swim.Swim.AnimationId = "rbxassetid://657560551"
+        Animate.swimidle.SwimIdle.AnimationId = "rbxassetid://657557095"
+        game.Players.LocalPlayer.Character.Humanoid.Jump = true
+
+-
+
